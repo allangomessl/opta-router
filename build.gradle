@@ -57,6 +57,7 @@ docker {
     name "pintowar/opta-router-ce:${project(":server").version}"
     tags project(":server").version, 'latest'
     dependsOn tasks.assembleServerAndClient
+    copySpec.from("/opt/osm-br")//.into("lib")
     files "$rootDir/build/$jarFileName"
 }
 

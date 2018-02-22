@@ -3,12 +3,13 @@ MAINTAINER Thiago Oliveira <pintowar@gmail.com>
 
 RUN mkdir -p /opt/pbf
 WORKDIR /opt/pbf
-RUN wget http://download.geofabrik.de/europe/belgium-latest.osm.pbf
+RUN wget http://download.geofabrik.de/south-america/brazil-latest.osm.pbf
 
-RUN mkdir -p /tmp/gh-tmp
+#RUN mkdir -p /tmp/gh-tmp
+COPY gh-tmp /tmp/gh-tmp
 
 WORKDIR /opt
-ENV GRAPH_OSM_PATH /opt/pbf/belgium-latest.osm.pbf
+ENV GRAPH_OSM_PATH /opt/pbf/brazil-latest.osm.pbf
 
 EXPOSE 8080
 ADD app.jar /opt/app.jar
