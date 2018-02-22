@@ -10,7 +10,7 @@ export class FormWidget {
         this.buttons = [this.pathBtn, this.terminateBtn, this.destroyBtn, this.detailedBtn]
 
         this.disable()
-        this.sampleLoader('belgium')
+        this.sampleLoader('ceara')
         this.eventDefinition()
     }
 

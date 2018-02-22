@@ -1,361 +1,361 @@
 export const SAMPLES = {
-    'belgium' : {
-        "id": "belgium-road-time-n50-k10",
+    'ceara' : {
+        "id": "ceara-road-time-n50-k10",
         "nLocations": 50,
         "nVehicles": 10,
         "capacity": 125,
         "stops": [
             {
-                "id": "0",
-                "lat": "50.8427501",
-                "lon": "4.3515499",
-                "name": "BRUSSEL",
-                "demand": "0"
+               "id":"0",
+               "lat":-3.7319029,
+               "lon":-38.5267393,
+               "name":"Fortaleza - CE",
+               "demand":"0"
             },
             {
-                "id": "55",
-                "lat": "50.4812987",
-                "lon": "5.5198048",
-                "name": "ANTHISNES",
-                "demand": "15"
+               "id":"55",
+               "lat":-3.6824047,
+               "lon":-38.9132305,
+               "name":"Caucaia - CE",
+               "demand":"15"
             },
             {
-                "id": "110",
-                "lat": "50.1085676",
-                "lon": "5.1429583",
-                "name": "AVE-ET-AUFFE",
-                "demand": "16"
+               "id":"110",
+               "lat":-7.228472699999999,
+               "lon":-39.3121233,
+               "name":"Juazeiro do Norte - CE",
+               "demand":"16"
             },
             {
-                "id": "165",
-                "lat": "50.8753581",
-                "lon": "3.3113744",
-                "name": "BAVIKHOVE",
-                "demand": "31"
+               "id":"165",
+               "lat":-3.8674127,
+               "lon":-38.6261113,
+               "name":"Maracanaú - CE",
+               "demand":"31"
             },
             {
-                "id": "220",
-                "lat": "50.2624949",
-                "lon": "4.1523037",
-                "name": "BERSILLIES-L'ABBAYE",
-                "demand": "14"
+               "id":"220",
+               "lat":-3.701499,
+               "lon":-40.3496894,
+               "name":"Sobral - CE",
+               "demand":"14"
             },
             {
-                "id": "275",
-                "lat": "50.688785",
-                "lon": "5.2859129",
-                "name": "BLERET",
-                "demand": "33"
+               "id":"275",
+               "lat":-7.229957199999999,
+               "lon":-39.4122984,
+               "name":"Crato - CE",
+               "demand":"33"
             },
             {
-                "id": "330",
-                "lat": "50.025208",
-                "lon": "4.3409814",
-                "name": "BOURLERS",
-                "demand": "7"
+               "id":"330",
+               "lat":-3.499706,
+               "lon":-39.5839241,
+               "name":"Itapipoca - CE",
+               "demand":"7"
             },
             {
-                "id": "385",
-                "lat": "51.0432467",
-                "lon": "2.6501345",
-                "name": "BULSKAMP",
-                "demand": "9"
+               "id":"385",
+               "lat":-3.9962484,
+               "lon":-38.7996239,
+               "name":"Maranguape - CE",
+               "demand":"9"
             },
             {
-                "id": "440",
-                "lat": "50.5661351",
-                "lon": "3.7853169",
-                "name": "CHIEVRES",
-                "demand": "17"
+               "id":"440",
+               "lat":-6.3587958,
+               "lon":-39.29805899999999,
+               "name":"Iguatu - CE",
+               "demand":"17"
             },
             {
-                "id": "495",
-                "lat": "51.2365829",
-                "lon": "3.3400765",
-                "name": "DAMME",
-                "demand": "33"
+               "id":"495",
+               "lat":-4.9685795,
+               "lon":-39.0162466,
+               "name":"Quixadá - CE",
+               "demand":"33"
             },
             {
-                "id": "550",
-                "lat": "50.2849958",
-                "lon": "4.3106966",
-                "name": "DONSTIENNES",
-                "demand": "26"
+               "id":"550",
+               "lat":-3.9295278,
+               "lon":-38.6057798,
+               "name":"Pacatuba - CE",
+               "demand":"26"
             },
             {
-                "id": "605",
-                "lat": "50.8848669",
-                "lon": "2.8162074",
-                "name": "ELVERDINGE",
-                "demand": "18"
+               "id":"605",
+               "lat":-5.192007299999999,
+               "lon":-39.2933955,
+               "name":"Quixeramobim - CE",
+               "demand":"18"
             },
             {
-                "id": "660",
-                "lat": "50.411922",
-                "lon": "5.173705",
-                "name": "EVELETTE",
-                "demand": "10"
+               "id":"660",
+               "lat":-4.3580865,
+               "lon":-39.3137855,
+               "name":"Canindé - CE",
+               "demand":"10"
             },
             {
-                "id": "715",
-                "lat": "50.4100558",
-                "lon": "4.3249526",
-                "name": "FONTAINE-L'EVEQUE",
-                "demand": "32"
+               "id":"715",
+               "lat":-3.7300232,
+               "lon":-40.9926511,
+               "name":"Tianguá - CE",
+               "demand":"32"
             },
             {
-                "id": "770",
-                "lat": "50.7670559",
-                "lon": "5.2628934",
-                "name": "GELINDEN",
-                "demand": "26"
+               "id":"770",
+               "lat":-5.178204,
+               "lon":-40.6695522,
+               "name":"Crateús - CE",
+               "demand":"26"
             },
             {
-                "id": "825",
-                "lat": "50.6271045",
-                "lon": "3.9115699",
-                "name": "GONDREGNIES",
-                "demand": "14"
+               "id":"825",
+               "lat":-4.56147,
+               "lon":-37.7688682,
+               "name":"Aracati - CE",
+               "demand":"14"
             },
             {
-                "id": "880",
-                "lat": "50.5499808",
-                "lon": "3.3727285",
-                "name": "GUIGNIES",
-                "demand": "32"
+               "id":"880",
+               "lat":-4.132863599999999,
+               "lon":-38.2470885,
+               "name":"Cascavel - CE",
+               "demand":"32"
             },
             {
-                "id": "935",
-                "lat": "50.8919578",
-                "lon": "4.4182942",
-                "name": "HAREN_BRUSSEL",
-                "demand": "33"
+               "id":"935",
+               "lat":-4.1731846,
+               "lon":-38.460945,
+               "name":"Pacajus - CE",
+               "demand":"33"
             },
             {
-                "id": "990",
-                "lat": "50.4814121",
-                "lon": "4.4932598",
-                "name": "HEPPIGNIES",
-                "demand": "30"
+               "id":"990",
+               "lat":-6.4026236,
+               "lon":-38.8591633,
+               "name":"Icó - CE",
+               "demand":"30"
             },
             {
-                "id": "1045",
-                "lat": "50.9912912",
-                "lon": "4.492735",
-                "name": "HOFSTADE_BT.",
-                "demand": "25"
+               "id":"1045",
+               "lat":-4.1132769,
+               "lon":-38.46396319999999,
+               "name":"Horizonte - CE",
+               "demand":"25"
             },
             {
-                "id": "1100",
-                "lat": "50.9667658",
-                "lon": "4.3834362",
-                "name": "HUMBEEK",
-                "demand": "18"
+               "id":"1100",
+               "lat":-2.9014475,
+               "lon":-40.8388865,
+               "name":"Camocim - CE",
+               "demand":"18"
             },
             {
-                "id": "1155",
-                "lat": "50.5208191",
-                "lon": "3.9017078",
-                "name": "JURBISE",
-                "demand": "26"
+               "id":"1155",
+               "lat":-2.8880562,
+               "lon":-40.11867669999999,
+               "name":"Acaraú - CE",
+               "demand":"26"
             },
             {
-                "id": "1210",
-                "lat": "50.77614",
-                "lon": "3.007366",
-                "name": "KOMEN",
-                "demand": "2"
+               "id":"1210",
+               "lat":-5.097983,
+               "lon":-38.3705722,
+               "name":"Morada Nova - CE",
+               "demand":"2"
             },
             {
-                "id": "1265",
-                "lat": "51.0566021",
-                "lon": "3.573045",
-                "name": "LANDEGEM",
-                "demand": "25"
+               "id":"1265",
+               "lat":-4.0449071,
+               "lon":-40.8651372,
+               "name":"São Benedito - CE",
+               "demand":"25"
             },
             {
-                "id": "1320",
-                "lat": "50.5427462",
-                "lon": "4.4476802",
-                "name": "LES_BONS_VILLERS",
-                "demand": "10"
+               "id":"1320",
+               "lat":-7.2986169,
+               "lon":-39.3024396,
+               "name":"Barbalha - CE",
+               "demand":"10"
             },
             {
-                "id": "1375",
-                "lat": "51.2948381",
-                "lon": "3.1994146",
-                "name": "LISSEWEGE",
-                "demand": "3"
+               "id":"1375",
+               "lat":-5.1571715,
+               "lon":-38.0208151,
+               "name":"Limoeiro do Norte - CE",
+               "demand":"3"
             },
             {
-                "id": "1430",
-                "lat": "50.6200815",
-                "lon": "3.8018102",
-                "name": "MAFFLE",
-                "demand": "28"
+               "id":"1430",
+               "lat":-5.9988,
+               "lon":-40.2930,
+               "name":"Tauá - CE",
+               "demand":"28"
             },
             {
-                "id": "1485",
-                "lat": "50.6165736",
-                "lon": "3.5470846",
-                "name": "MAULDE",
-                "demand": "9"
+               "id":"1485",
+               "lat":-3.11846,
+               "lon":-40.8303495,
+               "name":"Granja - CE",
+               "demand":"9"
             },
             {
-                "id": "1540",
-                "lat": "51.361787",
-                "lon": "4.861625",
-                "name": "MERKSPLAS",
-                "demand": "21"
+               "id":"1540",
+               "lat":-5.1260633,
+               "lon":-39.7309616,
+               "name":"Boa Viagem - CE",
+               "demand":"21"
             },
             {
-                "id": "1595",
-                "lat": "50.3534706",
-                "lon": "4.9014191",
-                "name": "MONT_NAM.",
-                "demand": "7"
+               "id":"1595",
+               "lat":-6.0838087,
+               "lon":-39.5691841,
+               "name":"Acopiara - CE",
+               "demand":"7"
             },
             {
-                "id": "1650",
-                "lat": "50.5504316",
-                "lon": "4.0964803",
-                "name": "NAAST",
-                "demand": "24"
+               "id":"1650",
+               "lat":-4.1828216,
+               "lon":-38.1300412,
+               "name":"Beberibe - CE",
+               "demand":"24"
             },
             {
-                "id": "1705",
-                "lat": "51.1936164",
-                "lon": "4.1787815",
-                "name": "NIEUWKERKEN-WAAS",
-                "demand": "1"
+               "id":"1705",
+               "lat":-3.884188699999999,
+               "lon":-38.46396319999999,
+               "name":"Eusébio - CE",
+               "demand":"1"
             },
             {
-                "id": "1760",
-                "lat": "50.6876172",
-                "lon": "3.8574228",
-                "name": "OLLIGNIES",
-                "demand": "5"
+               "id":"1760",
+               "lat":-3.68629,
+               "lon":-39.58546,
+               "name":"Itapajé - CE",
+               "demand":"5"
             },
             {
-                "id": "1815",
-                "lat": "50.2998711",
-                "lon": "4.6155651",
-                "name": "ORET",
-                "demand": "19"
+               "id":"1815",
+               "lat":-7.488440600000001,
+               "lon":-38.9877226,
+               "name":"Brejo Santo - CE",
+               "demand":"19"
             },
             {
-                "id": "1870",
-                "lat": "50.7360287",
-                "lon": "4.1360863",
-                "name": "PEPINGEN",
-                "demand": "4"
+               "id":"1870",
+               "lat":-3.6072866,
+               "lon":-38.96838839999999,
+               "name":"São Gonçalo do Amarante - CE",
+               "demand":"4"
             },
             {
-                "id": "1925",
-                "lat": "49.8122243",
-                "lon": "5.0029",
-                "name": "POUPEHAN",
-                "demand": "9"
+               "id":"1925",
+               "lat":-7.382949299999999,
+               "lon":-38.7716665,
+               "name":"Mauriti - CE",
+               "demand":"9"
             },
             {
-                "id": "1980",
-                "lat": "50.9477884",
-                "lon": "2.7891722",
-                "name": "RENINGE",
-                "demand": "7"
+               "id":"1980",
+               "lat":-5.738836,
+               "lon":-39.6303628,
+               "name":"Mombaça - CE",
+               "demand":"7"
             },
             {
-                "id": "2035",
-                "lat": "50.8460854",
-                "lon": "5.5750235",
-                "name": "ROSMEER",
-                "demand": "16"
+               "id":"2035",
+               "lat":-4.3253213,
+               "lon":-40.1526484,
+               "name":"Santa Quitéria - CE",
+               "demand":"16"
             },
             {
-                "id": "2090",
-                "lat": "50.5009515",
-                "lon": "4.6473657",
-                "name": "SAINT-MARTIN",
-                "demand": "27"
+               "id":"2090",
+               "lat":-3.2244045,
+               "lon":-39.7755571,
+               "name":"Amontada - CE",
+               "demand":"27"
             },
             {
-                "id": "2145",
-                "lat": "49.6096472",
-                "lon": "5.8560275",
-                "name": "SELANGE",
-                "demand": "15"
+               "id":"2145",
+               "lat":-5.4545752,
+               "lon":-39.7177495,
+               "name":"Pedra Branca - CE",
+               "demand":"15"
             },
             {
-                "id": "2200",
-                "lat": "50.8068661",
-                "lon": "4.1538281",
-                "name": "SINT-KWINTENS-LENNIK",
-                "demand": "17"
+               "id":"2200",
+               "lat":-4.322015599999999,
+               "lon":-40.7092446,
+               "name":"Ipu - CE",
+               "demand":"17"
             },
             {
-                "id": "2255",
-                "lat": "50.2950667",
-                "lon": "4.4831638",
-                "name": "SOMZEE",
-                "demand": "20"
+               "id":"2255",
+               "lat":-2.9209642,
+               "lon":-39.91673979999999,
+               "name":"Itarema - CE",
+               "demand":"20"
             },
             {
-                "id": "2310",
-                "lat": "50.2273877",
-                "lon": "5.7437507",
-                "name": "TAILLES",
-                "demand": "27"
+               "id":"2310",
+               "lat":-6.7943447,
+               "lon":-39.2982254,
+               "name":"Várzea Alegre - CE",
+               "demand":"27"
             },
             {
-                "id": "2365",
-                "lat": "50.5695196",
-                "lon": "5.5844061",
-                "name": "TILFF",
-                "demand": "33"
+               "id":"2365",
+               "lat":-4.1586852,
+               "lon":-40.7477727,
+               "name":"Guaraciaba do Norte - CE",
+               "demand":"33"
             },
             {
-                "id": "2420",
-                "lat": "49.9102794",
-                "lon": "5.5659053",
-                "name": "VAUX-LEZ-ROSIERES",
-                "demand": "18"
+               "id":"2420",
+               "lat":-3.9715688,
+               "lon":-38.5276456,
+               "name":"Itaitinga - CE",
+               "demand":"18"
             },
             {
-                "id": "2475",
-                "lat": "50.7044254",
-                "lon": "5.4399729",
-                "name": "VILLERS-L'EVEQUE",
-                "demand": "31"
+               "id":"2475",
+               "lat":-3.5240219,
+               "lon":-40.3426306,
+               "name":"Massapê - CE",
+               "demand":"31"
             },
             {
-                "id": "2530",
-                "lat": "50.8346073",
-                "lon": "4.557627",
-                "name": "VOSSEM",
-                "demand": "19"
+               "id":"2530",
+               "lat":-4.542580399999999,
+               "lon":-40.7172983,
+               "name":"Ipueiras - CE",
+               "demand":"19"
             },
             {
-                "id": "2585",
-                "lat": "50.5951652",
-                "lon": "5.2276287",
-                "name": "WARNANT-DREYE",
-                "demand": "24"
+               "id":"2585",
+               "lat":-3.7933682,
+               "lon":-39.2692602,
+               "name":"Pentecoste - CE",
+               "demand":"24"
             },
             {
-                "id": "2640",
-                "lat": "51.0005742",
-                "lon": "3.8693544",
-                "name": "WETTEREN",
-                "demand": "16"
+               "id":"2640",
+               "lat":-7.2496499,
+               "lon":-39.1454398,
+               "name":"Missão Velha - CE",
+               "demand":"16"
             },
             {
-                "id": "2695",
-                "lat": "50.6061517",
-                "lon": "5.7830075",
-                "name": "XHENDELESSE",
-                "demand": "32"
+               "id":"2695",
+               "lat":-4.332599699999999,
+               "lon":-38.8773164,
+               "name":"Baturité - CE",
+               "demand":"32"
             }
-        ],
+         ],
         "depots": [
             0,
             0,

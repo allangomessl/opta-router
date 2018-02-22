@@ -19,5 +19,5 @@ management:
 app:
   graph:
     osm:
-      path: ${GRAPH_OSM_PATH:/home/thiago/Downloads/belgium-latest.osm.pbf}
+      path: ${GRAPH_OSM_PATH:/home/thiago/Downloads/brazil.osm.pbf}
       location: ${GRAPH_OSM_LOCATION:/tmp/gh-tmp}

@@ -1,6 +1,7 @@
 package com.github.vrp.dist
 
 import com.github.util.GraphWrapper
+import java.lang.RuntimeException
 
 
 interface Distance {
@@ -26,9 +27,13 @@ class PathDistance(private val locations: List<Pair<Double, Double>>, graph: Gra
             for (j in 0 until this.n) {
                 if (i != j) {
                     val b = locations[j]
-                    val path = graph.simplePath(a, b)
-                    this.distMatrix!![i][j] = path.distance
-                    this.timeMatrix!![i][j] = path.time
+                    try {
+                        val path = graph.simplePath(a, b)
+                        this.distMatrix!![i][j] = path.distance
+                        this.timeMatrix!![i][j] = path.time
+                    } catch (e: RuntimeException) {
+                        throw RuntimeException("Error processing points ($a, $b)", e)
+                    }
                 } else {
                     this.distMatrix!![i][j] = 0.0
                     this.timeMatrix!![i][j] = 0
